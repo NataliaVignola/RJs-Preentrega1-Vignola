@@ -1,16 +1,17 @@
 import CartWidget from "./CartWidget/CartWidget"
 
 const NavBar = () => {
-    return
+    return(
     <nav>
         <h3>Locker</h3>
         <div>
-            <buttom>Muebles</buttom>
-            <buttom>Asientos</buttom>
-            <buttom>Deco</buttom>
+            <button>Muebles</button>
+            <button>Asientos</button>
+            <button>Deco</button>
         </div>
         <CartWidget />
     </nav>
+    )
 }
 
 export default NavBar
